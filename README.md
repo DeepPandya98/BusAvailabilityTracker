@@ -15,6 +15,14 @@ pip install -r requirements.txt
 install tesseract onto computer
 ```
 
+Update config.json
+```
+Create Twilio Account and buy a twilio number
+Update ACCOUNT_SID, AUTH_TOKEN and NUMBER from Twilio
+Update TESSERACT_FILEPATH to location of tesseract.exe installed on computer
+Add recipients to NOTIF_RECIPIENTS
+```
+
 Start Bus Tracker
 ```
 python mcHacksBusTracker.py
