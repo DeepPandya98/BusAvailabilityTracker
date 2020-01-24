@@ -1,8 +1,7 @@
 # BusAvailabilityTracker
 
 ## Description
-Simple script created to track availability of bus tickets for McHacks 2019. The script checks "bus.mchacks.ca" every 5 minutes,
-if tickets are available, a text message is sent out to all recipients notifying them to go buy tickets. 
+Simple script created to track availability of bus tickets for McHacks 2019. The script checks "bus.mchacks.ca" every 5 minutes and automatically sends a text message to registered recipients when tickets become available. 
 
 ## Installation
 ```
