@@ -8,22 +8,26 @@ Simple script created to track availability of bus tickets for McHacks 2019. The
 git clone https://github.com/Deep297/BusAvailabilityTracker.git
 ```
 
-Install dependencies:
+# Install dependencies:
 
 ```
 pip install -r requirements.txt
 install tesseract onto computer
 ```
 
-Update config.json
+# Twilio Setup
+  1. Create Twilio Account
+  2. Buy a Twilio number
+  3. Registered verified recipients
+  
+# Update config.json
 ```
-Create Twilio Account and buy a twilio number
 Update ACCOUNT_SID, AUTH_TOKEN and NUMBER from Twilio
 Update TESSERACT_FILEPATH to location of tesseract.exe installed on computer
-Add recipients to NOTIF_RECIPIENTS
+Add verified recipients to NOTIF_RECIPIENTS
 ```
 
-Start Bus Tracker
+# Start Bus Tracker
 ```
 python mcHacksBusTracker.py
 ```
